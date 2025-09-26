@@ -7,11 +7,7 @@ __Hassan Saei, Bruno Estebe, Nicolas Gaudin, Mahsa Esmailpour, Julie Haure, Oliv
 If you use any code or workflows in this repository please cite the following [manuscript coming soon]()
 
 ```
-Muto Y, Wilson PC, Ledru N, Wu H, Dimke H, Waikar SS, Humphreys BD.
-Single cell transcriptional and chromatin accessibility profiling redefine cellular heterogeneity in the adult human kidney. 
-Nat Commun. 2021 Apr 13;12(1):2190. 
-doi: 10.1038/s41467-021-22368-w. 
-PMID: 33850129.
+
 ```
 The code associated with this publication has been deposited in Zenodo 
 <a href="https://doi.org/10.5281/zenodo.16585561"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.16585561.svg" alt="DOI"></a>
