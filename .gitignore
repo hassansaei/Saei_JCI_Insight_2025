@@ -1,0 +1,65 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+.Rproj.user
+*.Rproj
+
+# R Markdown
+*.Rmd
+!*_template.Rmd
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+
+# Data files (uncomment if you want to ignore large data files)
+# *.csv
+# *.tsv
+# *.txt
+# *.bam
+# *.sam
+# *.fastq
+# *.fq
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Shiny apps
+shinyApp_*/
+shinyapp_*/
+
+# Large result directories
+Fraser_out/
+results/
+output/
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
