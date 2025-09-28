@@ -8,6 +8,17 @@ This repository contains the computational analysis code and datasets for a stud
 
 **Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658776v1)
 
+If you use any code or workflows from this repository, please cite:
+
+```bibtex
+@article{saei2025therapeutic,
+  title={Therapeutic splice modulation of COL4A5 reinstates collagen IV assembly in an organoid model of X-linked Alport syndrome},
+  author={Saei, Hassan and Estebe, Bruno and Gaudin, Nicolas and others},
+  journal={[bioRxiv]},
+  year={2025},
+  doi={[https://doi.org/10.1101/2025.06.10.658776]}
+}
+```
 
 ## Data Availability
 
@@ -110,19 +121,6 @@ runApp("shinyApp_dataset2/")
 - Functional enrichment analysis (GO, KEGG, Reactome)
 - Alternative splicing analysis using FRASER
 - Interactive visualization tools for data exploration
-
-## Citation
-If you use any code or workflows from this repository, please cite:
-
-```bibtex
-@article{saei2025therapeutic,
-  title={Therapeutic splice modulation of COL4A5 reinstates collagen IV assembly in an organoid model of X-linked Alport syndrome},
-  author={Saei, Hassan and Estebe, Bruno and Gaudin, Nicolas and others},
-  journal={[bioRxiv]},
-  year={2025},
-  doi={[https://doi.org/10.1101/2025.06.10.658776]}
-}
-```
 
 ## Contact
 - **Email:** hassan.saeiahan@gmail.com
