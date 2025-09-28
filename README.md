@@ -6,14 +6,15 @@
 
 This repository contains the computational analysis code and datasets for a study investigating therapeutic splice modulation of COL4A5 in X-linked Alport syndrome using kidney organoid models. The analysis includes bulk RNA-seq, single-cell RNA-seq, and proteomics data.
 
+**Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658776v1)
+
+
 ## Data Availability
 
 - **Complete analysis datasets** are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16585561.svg)](https://doi.org/10.5281/zenodo.16585561)
 - **Raw and processed files** are deposited in NCBI GEO:
   - [GSE281080](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281080) - Bulk RNA-seq data
   - [GSE181081](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181081) - Single-cell RNA-seq data
-
-- **Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658776v1)
 
 ## Repository Structure
 
