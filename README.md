@@ -4,18 +4,14 @@
 
 *These authors equally supervised the work.
 
-## Abstract
-
 This repository contains the computational analysis code and datasets for a study investigating therapeutic splice modulation of COL4A5 in X-linked Alport syndrome using kidney organoid models. The analysis includes bulk RNA-seq, single-cell RNA-seq, and proteomics data.
 
 ## Data Availability
 
+- **Complete analysis datasets** are available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16585561.svg)](https://doi.org/10.5281/zenodo.16585561)
 - **Raw and processed files** are deposited in NCBI GEO:
   - [GSE281080](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281080) - Bulk RNA-seq data
   - [GSE181081](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181081) - Single-cell RNA-seq data
-
-- **Complete analysis datasets** are available on Zenodo:
-  - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16585561.svg)](https://doi.org/10.5281/zenodo.16585561)
 
 - **Preprint:** [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658776v1)
 
@@ -37,7 +33,6 @@ This repository contains the computational analysis code and datasets for a stud
 ```
 
 ## Quick Start
-
 ### Prerequisites
 
 ```r
@@ -49,27 +44,28 @@ BiocManager::install(c("msqrob2", "QFeatures", "limma", "clusterProfiler"))
 ```
 
 ### Interactive Analysis
-
 #### 1. Bulk RNA-seq Analysis
+
 ```r
 # Run locally
 library(bulkAnalyseR)
 library(shiny)
 runApp("shinyApp_GSE281080/")
-
-# Or access online: https://hassansaei.shinyapps.io/shiny_gse281080/
 ```
+[Access online](https://hassansaei.shinyapps.io/shiny_gse281080/)
+
 
 #### 2. Single-cell Analysis
 ```r
 # Dataset 1: Early vs Late comparison
 runApp("shinyApp_dataset1/")
-# Online: https://hassansaei.shinyapps.io/shinyapp_dataset1/
 
 # Dataset 2: Mutant vs Control comparison  
 runApp("shinyApp_dataset2/")
-# Online: https://hassansaei.shinyapps.io/shinyapp_dataset2/
 ```
+[Access online dataset 1](https://hassansaei.shinyapps.io/shinyapp_dataset1/)
+
+[Access online dataset 2](https://hassansaei.shinyapps.io/shinyapp_dataset2/)
 
 ## Analysis Workflow
 
@@ -109,32 +105,28 @@ runApp("shinyApp_dataset2/")
 - **Proteomics:** Mass spectrometry (msqrob2 analysis)
 
 ## Key Results
-
 - Differential expression analysis across time points and genotypes
 - Functional enrichment analysis (GO, KEGG, Reactome)
 - Alternative splicing analysis using FRASER
 - Interactive visualization tools for data exploration
 
 ## Citation
-
 If you use any code or workflows from this repository, please cite:
 
 ```bibtex
 @article{saei2025therapeutic,
   title={Therapeutic splice modulation of COL4A5 reinstates collagen IV assembly in an organoid model of X-linked Alport syndrome},
   author={Saei, Hassan and Estebe, Bruno and Gaudin, Nicolas and others},
-  journal={[Journal Name]},
+  journal={[bioRxiv]},
   year={2025},
-  doi={[DOI]}
+  doi={[https://doi.org/10.1101/2025.06.10.658776]}
 }
 ```
 
 ## Contact
-
 - **Email:** hassan.saeiahan@gmail.com
 - **Repository:** [GitHub](https://github.com/[username]/Saei_JCI_Insight_2025)
 
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
